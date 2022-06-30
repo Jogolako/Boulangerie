@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaSolSiDo - Espace Client</title>
+    <link rel="stylesheet" href="/mesStyles/bootstrap.css">
+    <link rel="stylesheet" href="/mesStyles/EspaceClient.css">
+    <link rel="stylesheet" href="/mesStyles/header.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/mesImages/clé-de-fa.png">
+</head>
+<body>
+
+  <div class="container-back">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+        <a href="/Index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img src="/mesImages/clé-de-fa.png" id="logoheader">
+          <span class="fs-4">FaSolSiDo</span>
+        </a>
+
+        <ul id="headerlist">
+          <li class="navlist-item"><a href="NosProduits.html" class="nav-link active" aria-current="page">Nos produits</a></li>
+          <li class="navlist-item"><a href="NosPacks.html" class="nav-link">Nos packs</a></li>
+          <li class="navlist-item"><a href="AboutUs.html" class="nav-link">Qui sommes-nous ?</a></li>
+          <li class="navlist-item"><a href="Blog.html" class="nav-link">Blog</a></li>
+          <li class="navlist-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+          <li class="navlist-item"><a href="EspaceClient.html" class="nav-link">Espace client</a></li>
+        </ul>
+      </header>
+    </div>
+  </div>
+
+  <div class="hero">
+    <p class="pageName">Espace client</p>
+  </div>
+
+<!-- main -->
+  <main>
+    <div class="container">
+      <div class="row">
+      <body class="text-center" cz-shortcut-listen="true">
+        <form class="form-signin col-lg" id="connectform">
+          <h1 class="mb-3 font-weight-normal">Connectez-vous</h1>
+          <label for="inputEmail" class="sr-only">Adresse e-mail</label>
+          <input type="email" id="inputEmail" class="form-control input-size" placeholder="Adresse e-mail" required="" autofocus="">
+          <label for="inputPassword" class="sr-only">Mot de passe</label>
+          <input type="password" id="inputPassword" class="form-control input-size" placeholder="Mot de passe" required="">
+          <button class="btn btn-lg btn-color btn-block" type="submit">Se connecter</button>
+        </form>
+
+        <body class="text-center" cz-shortcut-listen="true">
+          <form class="form-signin col-lg">
+            <h1 class="mb-3 font-weight-normal">Inscrivez vous !</h1>
+            <label for="inputEmail" class="sr-only">Adresse e-mail</label>
+            <input type="email" id="inputEmail" class="form-control input-size" placeholder="Adresse e-mail" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Mot de passe</label>
+            <input type="password" id="inputPassword" class="form-control input-size" placeholder="Mot de passe" required="">
+            <button class="btn btn-lg btn-color btn-block" type="submit">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+  </main>
+
+<!-- footer -->
+  <div class="containerperso">
+    <footer>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nos spécialités</a></li>
+        <li class="nav-item"><a href="NosPacks.html" class="nav-link px-2 text-muted">Nos packs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Aide</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Presse</a></li>
+        <li class="nav-item"><a href="AboutUs.html" class="nav-link px-2 text-muted">Qui sommes-nous ?</a></li>
+        <li class="nav-item"><a href="Blog.html" class="nav-link px-2 text-muted">Blog</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 FaSolSiDo, Inc</p>
+    </footer>
+  </div>
+<script src="/mesScripts/bootstrap.js"></script>
+</body>
+</html>
+
+<!-- <main>
+  <div class="container-fluid bg-gray">
+    <h1>Connectez vous</h1>
+    <form>
+      <div><label for="email">E-mail :</label></div>
+      <div><input type="email" name="email" required></div>
+
+      <div><label for="password">Mot de passe :</label></div>
+      <div><input type="password" name="password" required></div>
+    </form>
+    <a href="#"><p>Mot de passe oublié ?</p></a>
+
+    <form>
+      <h1>Pas de compte ?<br>
+        Inscrivez vous !</h1>
+      <label for="email">E-mail :</label>
+      <input type="email" name="email" required>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" name="password" required>
+    </form>
+  </div>
+</main> -->

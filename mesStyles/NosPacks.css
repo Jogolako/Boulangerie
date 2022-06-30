@@ -1,0 +1,55 @@
+article{
+    text-align: center;
+    padding: 2em;
+}
+
+article p{
+    margin-top: 2em;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover{
+    color: rgb(138, 102, 52);
+}
+
+.productimg{
+        max-width: 900px;
+        margin-bottom: 1em;
+}
+
+.addPanier{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #dfc2988c;
+}
+
+.addPanier:active{
+    background-color: #aa94748c;
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.418);
+}
+.packtitle{
+    margin: 2em;
+}
+.packdescription{
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 800px){
+    .packdescription{
+        width: 90%;
+    }
+
+    article{
+        padding: 0;
+    }
+
+    .addPanier{
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 1em;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #855d28;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/* #headernav{
+    width: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+} */
+
+.container-back{
+    background-color: #F3F3F3;
+    width: 100%;
+}
+
+#logoheader{
+    width: 50px;
+    margin-right: 10px;
+}
+
+#headerlist{
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navlist-item{
+    font-size: large;
+    margin: 1em;
+}
+
+.navlist-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.navlist-item a:hover{
+    color: #855d28;
+}
+
+.hero{
+    width: 100%;
+    background: radial-gradient(#f3f3f393, #4e4e4e31);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: none 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+.hero p{
+    font-size: xx-large;
+    font-weight: 900;
+    color: #91642b;
+    margin-top: 0.5em;
+}
+
+main{
+    width: 100%;
+}
+
+footer{
+    padding: 1em;
+    background-color: #F3F3F3;
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.432);
+}
+
+/* footer a{
+    text-decoration: none;
+    color: #855d28
+} */
+
+/* if enough thing on screen use this footer name*/
+#footernav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* if not enough things on screen use this class name */
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-footer{
+    margin: 0.25em
+}
+/* body{
+    color: #dfc298;
+} */

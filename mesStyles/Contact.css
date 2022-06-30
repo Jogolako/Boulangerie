@@ -1,0 +1,118 @@
+/* .contactform{
+    width: 100%;
+    padding: 1em;
+} */
+
+
+#directContact{
+    margin: 2em;
+}
+
+label{
+    margin-bottom: 0.5em;
+}
+
+span{
+    margin: 1em;
+}
+
+.plaintext{
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.plaincolor{
+    color: #855d28;
+}
+
+.div-size{
+    width: 70%;
+    margin: auto;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    margin-top: 2em;
+    padding: 2em;
+}
+
+.form-signin{
+    height: 100%;
+}
+
+.form-control{
+    width: 200px;
+    margin: auto;
+}
+
+#inputMsg{
+    width: 80%;
+    min-height: 125px;
+    max-height: 425px;
+}
+
+.col-sm{
+    margin-bottom: 2em;
+    padding: auto;
+}
+
+.btn-color{
+    background-color: #dfc2988c;
+}
+
+.btn-color:hover{
+    background-color: #aa94748c !important;
+}
+
+.btn{
+    margin-top: 1em;
+}
+
+.col-margin{
+    margin-top: 2em;
+}
+
+.col-separate{
+    border-right: 2px solid rgba(0, 0, 0, 0.116);
+}
+
+.maps{
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    border-radius: 15px;
+    margin: 2em;
+}
+
+.adress{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.116);
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+iframe{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.116); */
+}
+
+
+@media (max-width: 991px){
+    .div-size{
+        width: 100%;
+        margin: 0;
+    }
+
+    .maps{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 575px){
+    .col-separate{
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.116);
+        padding-bottom: 2em;
+    }
+}
