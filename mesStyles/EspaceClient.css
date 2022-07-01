@@ -76,7 +76,7 @@ footer{
     }
     
     footer{
-    position: none;
+    position: unset;
     float: left;
     }
 }
