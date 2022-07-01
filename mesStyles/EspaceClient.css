@@ -50,6 +50,11 @@ div p{
     padding-bottom: 0.5em;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
 @media (max-width: 1400px){
     main{
         padding: 0;
@@ -68,5 +73,10 @@ div p{
     #connectform{
         border-right: none;
         border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+    }
+    
+    footer{
+    position: none;
+    float: left;
     }
 }

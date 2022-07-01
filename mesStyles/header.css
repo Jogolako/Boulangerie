@@ -9,10 +9,6 @@ ul{
     padding: 1em;
 }
 
-li{
-    list-style: none;
-    text-align: center;
-}
 
 h1, h2, h3, h4, h5, h6{
     color: #855d28;
@@ -20,7 +16,6 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
     margin: 0;
 }
-
 
 /* #headernav{
     width: 100%;
